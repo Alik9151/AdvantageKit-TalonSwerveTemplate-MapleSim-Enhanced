@@ -134,7 +134,7 @@ public final class PhoenixUtil {
                 .withEncoderInverted(false)
                 // Adjust steer motor PID gains for simulation
                 .withSteerMotorGains(new Slot0Configs()
-                        .withKP(70)
+                        .withKP(20)
                         .withKI(0)
                         .withKD(4.5)
                         .withKS(0)
